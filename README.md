@@ -6,3 +6,7 @@
 
 # :hover :link :active : visited
 
+# The CSS Box Model
+Margin - transparent
+Border - goes around the padding and content
+Padding - transparent
