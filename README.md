@@ -8,6 +8,7 @@ pseudo-element v.s. pseudo-class
 
 偽類 pseudo-class 使用單冒號來起始撰寫
 Pseudo-classes are keywords that start with a colon:
+
 偽元素 pseudo-element使用雙冒號起始撰寫
 Pseudo-elements start with a double colon ::
 
