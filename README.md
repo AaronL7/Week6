@@ -31,3 +31,10 @@ Padding - transparent
  
 # RGBA/RGA Colors
  
+rgb(red, green, blue)
+#p1 {background-color:rgb(255,0,0);}
+#p2 {background-color:rgb(0,255,0);}
+#p3 {background-color:rgb(0,0,255);}
+rgba(red, green, blue, alpha)
+#p1 {background-color: rgba(255, 0, 0, 0.3);}   /* red with
+opacity */
