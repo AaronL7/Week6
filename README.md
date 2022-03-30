@@ -17,3 +17,17 @@ Padding - transparent
 # Box-sizing
 在 CSS box model 中，對元素指定寬度和高度會應用於 content box，如果又在該元素設定 border 或 padding 時，在視覺上會很像是增加元素的大小。
  也就是說當你想要讓該元素為某寬度或高度時，需要自行手動減去 border 或 padding 所佔用的空間，才能讓元素符合原本預期的寬高。
+
+ # Color (Hex Code)
+ Hex code
+ 
+ rgb: rgb(255,255,255), rgb(255,0,0)
+
+ Color name: red, pink
+ 
+ hsla(hue, saturation, lightness, alpha)
+ 
+ #p1 {background-color: hsl(120, 100%, 50%);}   
+ 
+# RGBA/RGA Colors
+ 
