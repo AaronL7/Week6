@@ -13,13 +13,13 @@
             height: 100vh;
 
         }
-
+        
         .header {
             width:100%;
             height:100px;
             background-color: cornflowerblue;
-
         }
+        
         .tile{
             height:60px;
             width:60px;
@@ -27,21 +27,19 @@
             margin:5px;
             float:left
         }
-
-       
+        
         .board{
             width:100%;
             height:300px;
             background-color: rgb(177, 241, 124);
- 
          }
 
         .keyboard{
            width:100%;
            height:300px;
            background-color: rgb(94, 141, 94);
-
         }
+        
         .key{
             height: 50px;
             width:50px;
@@ -49,10 +47,14 @@
             margin:5px;
             float:left
         }
+        
         .spin{
+             /*animation-name: spinAnimation;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;*/
             animation: spinAnimation 1s ease-in-out;
-           
         }
+       
         @keyframes spinAnimation{
             from {
                 transform:rotateY(0deg)
@@ -64,7 +66,6 @@
     </style>
 </head>
 <body>
-
     <section class="header"></section>
     <div class="board">
         <div class="tile" id="tile-1">1</div>
@@ -77,8 +78,6 @@
         <div class="key" id="key-Q">Q</div>
         <div class="key" id=""key-W>W</div>
     </div>
-
-
     <script>
         
          var keyE = document.createElement('div');
@@ -92,8 +91,6 @@
              document.getElementById('tile-1').style.background='yellow'
              document.getElementById('tile-1').classList.add('spin')
          })
-
-
     </script>
 </body>
 </html>
