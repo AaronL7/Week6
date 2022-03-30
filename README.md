@@ -1,23 +1,28 @@
 
 pseudo-element v.s. pseudo-class
 ================================================
-偽類 (pseudo class) 就是在選已經存在的東西，比方說 a:hover 就是選了已經存在的 <a> 的某一個狀態
+偽類 (pseudo class) 就是在選已經存在的東西，比方說 a:hover 就是選了已經存在的 <a> 的某一個狀態。
  
 偽元素 (pseudo element) 就是在創造一個新的假元素，因為他不在 DOM 裡面，而是創造的了一個我們看不見的元素。
 比如說 ::first-line，第一行並沒有被任何的 tag 包住，所以在選取的過程就像是用了一個看不到的 tag 把第一行包起來，所以才選得到這行。
- 
 
-偽類 pseudo-class 使用單冒號來起始撰寫，
+偽類 pseudo-class 使用單冒號來起始撰寫
 Pseudo-classes are keywords that start with a colon:
 偽元素 pseudo-element使用雙冒號起始撰寫
 Pseudo-elements start with a double colon ::
 
- 
- 
 
  
-# :hover :link :active : visited
+pseudo-class
+================================================
+:link 連結未被訪問過
+:visited 連結已被訪問過
+:focus 元素被聚焦
+:hover 滑鼠游標移到元素上
+:active 滑鼠點擊到放開前
 
+ 
+ 
 The CSS Box Model
 ================================================
 Box Model 主要由四個部分主成，由內而外分別是 Content ( 內容 )、Padding ( 內邊距 )、Border ( 邊框 ) 和 Margin ( 外邊距 )
@@ -26,8 +31,8 @@ Box Model 主要由四個部分主成，由內而外分別是 Content ( 內容 )
  
 Box-sizing
 ================================================
-在 CSS box model 中，對元素指定寬度和高度會應用於 content box，如果又在該元素設定 border 或 padding 時，在視覺上會很像是增加元素的大小。
-也就是說當你想要讓該元素為某寬度或高度時，需要自行手動減去 border 或 padding 所佔用的空間，才能讓元素符合原本預期的寬高。
+在CSS box model中，對元素指定寬度和高度會應用於content box，如果又在該元素設定border或padding時，在視覺上會很像是增加元素的大小。
+也就是說當你想要讓該元素為某寬度或高度時，需要自行手動減去border或padding所佔用的空間，才能讓元素符合原本預期的寬高。
 
 
  # Color (Hex Code)
