@@ -61,6 +61,5 @@ vh(view height)指瀏覽器內部的可視區域高度的百分比，window.inne
             background: linear-gradient(yellow,blue) ;
             width: 100%;
             height: 100vh;
-            
         }
-    </style>
+ </style>
