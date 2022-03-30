@@ -45,29 +45,6 @@ Box-sizing
  
 也就是說當你想要讓該元素為某寬度或高度時，需要自行手動減去border或padding所佔用的空間，才能讓元素符合原本預期的寬高。
 
-
- # Color (Hex Code)
- Hex code
- 
- rgb: rgb(255,255,255), rgb(255,0,0)
-
- Color name: red, pink
- 
- hsla(hue, saturation, lightness, alpha)
- 
- #p1 {background-color: hsl(120, 100%, 50%);}   
- 
-# RGBA/RGA Colors
- 
-rgb(red, green, blue)
-#p1 {background-color:rgb(255,0,0);}
-#p2 {background-color:rgb(0,255,0);}
-#p3 {background-color:rgb(0,0,255);}
-rgba(red, green, blue, alpha)
-#p1 {background-color: rgba(255, 0, 0, 0.3);}   /* red with
-opacity */
- 
-#CSS3 Gradients
  
  
 關於height的百分比
