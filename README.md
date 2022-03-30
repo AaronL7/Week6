@@ -38,3 +38,5 @@ rgb(red, green, blue)
 rgba(red, green, blue, alpha)
 #p1 {background-color: rgba(255, 0, 0, 0.3);}   /* red with
 opacity */
+ 
+#CSS3 Gradients
