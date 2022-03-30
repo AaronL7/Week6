@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             background:linear-gradient(180deg, rgb(228, 228, 168),rgb(247, 151, 151));
             width:100%;
             height: 100vh;
         }
-        .header {
+        .header{
             width:100%;
             height:100px;
             background-color: blue;
         }
         .tile{
-            height:60px;
-            width:60px;
+            height:80px;
+            width:80px;
             border: solid red 1px;
-            margin:5px;
+            margin:10px;
             float:left;
             display:flex;
             justify-content: center;
@@ -63,23 +63,23 @@
     </style>
 </head>
 <body>
-
     <section class="header"></section>
     <div class="board">
-        <div class="tile" id="tile-1">m</div>
-        <div class="tile">a</div>
-        <div class="tile">n</div>
-        <div class="tile">g</div>
-        <div class="tile">o</div>
+        <div class="tile" id="tile-1">1</div>
+        <div class="tile">2</div>
+        <div class="tile">3</div>
+        <div class="tile">4</div>
+        <div class="tile">5</div>
     </div>
     <div class="keyboard" id="keyboard">
     </div>
 
     <script>
         const keyboard=[
-           ['Q',"W","E"],
-           ["A","S",'D'],
-           ["Enter",'Z','del']
+           ["Q","W","E","R"],
+           ["A","S","D","F"],
+           ["Z","X","C","V"],
+           ["Enter","Del"],
         ]
 
         var words=["apple","mango","tiger","eagle","cargo"]
@@ -97,9 +97,7 @@
                  keyEl.setAttribute('id','key'+i+"-"+j);
                  keyEl.classList.add('key');
                  keyEl.textContent=keyboard[i][j];
-                
                  keyEl.addEventListener('click',(e)=>{
-                   
                     document.getElementById('tile-1').textContent=e.target.textContent;
                     document.getElementById('tile-1').style.background='yellow'
                     document.getElementById('tile-1').classList.add('spin')
