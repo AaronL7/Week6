@@ -1,4 +1,5 @@
-Pseudo Element
+
+pseudo-element v.s. pseudo-class
 ================================================
 偽類 (pseudo class) 就是在選已經存在的東西，比方說 a:hover 就是選了已經存在的 <a> 的某一個狀態
  
