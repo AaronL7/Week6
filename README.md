@@ -53,3 +53,14 @@ height:100vh
 vh(view height)指瀏覽器內部的可視區域高度的百分比，window.innerWidth/window.innerHeight
 上述例子問題也可以使用vh單位解決，不用在html，body上設hight:100%
 但是vh單位在IE8以下版本不支援。
+ 
+ 
+ #style
+ <style>
+        body{
+            background: linear-gradient(yellow,blue) ;
+            width: 100%;
+            height: 100vh;
+            
+        }
+    </style>
