@@ -17,9 +17,13 @@ Pseudo-elements start with a double colon ::
 pseudo-class
 ================================================
 :link 連結未被訪問過
+ 
 :visited 連結已被訪問過
+ 
 :focus 元素被聚焦
+ 
 :hover 滑鼠游標移到元素上
+ 
 :active 滑鼠點擊到放開前
 
  
