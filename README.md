@@ -33,7 +33,9 @@ The CSS Box Model
 Box Model 主要由四個部分主成，由內而外分別是 Content ( 內容 )、Padding ( 內邊距 )、Border ( 邊框 ) 和 Margin ( 外邊距 )
  
 padding：用來設計元素內容與元素本身邊框間的距離
+ 
 border：用來設計元素邊框的顏色、粗細與樣式
+ 
 margin：用來設計元素與外部元素的距離
 
  
