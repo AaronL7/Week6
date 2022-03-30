@@ -18,19 +18,17 @@ Pseudo-elements start with a double colon ::
  
 # :hover :link :active : visited
 
-# The CSS Box Model
-Margin - transparent
- 
-Border - goes around the padding and content
- 
-Padding - transparent
+The CSS Box Model
+================================================
+Box Model 主要由四個部分主成，由內而外分別是 Content ( 內容 )、Padding ( 內邊距 )、Border ( 邊框 ) 和 Margin ( 外邊距 )
+
 
  
 Box-sizing
 ================================================
 在 CSS box model 中，對元素指定寬度和高度會應用於 content box，如果又在該元素設定 border 或 padding 時，在視覺上會很像是增加元素的大小。
 也就是說當你想要讓該元素為某寬度或高度時，需要自行手動減去 border 或 padding 所佔用的空間，才能讓元素符合原本預期的寬高。
-Box Model 主要由四個部分主成，由內而外分別是 Content ( 內容 )、Padding ( 內邊距 )、Border ( 邊框 ) 和 Margin ( 外邊距 )
+
 
  # Color (Hex Code)
  Hex code
